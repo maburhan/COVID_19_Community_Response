@@ -1,0 +1,38 @@
+<div class="container">
+    <h1>Add Hospital</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Hospital Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea class="form-control" id="address" required ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="text" class="form-control" id="phoneNumber" required>
+      </div>      
+      <div>
+        <label for="state">State </label>
+        <select class="custom-select" >
+          <option value="0">--All--</option>
+          <option value="1"> First </option>
+        </select>
+      </div>      
+      <div>
+        <label for="city">City </label>
+        <select class="custom-select" >
+          <option value="0">--All--</option>
+          <option value="1"> First </option>
+        </select>
+      </div>    
+      <div class="form-group">
+        <label for="address">Is Private</label>
+        <input type="checkbox" class="form-control" id="isPrivate" width="40%">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Cancel</button>
+    </form>
+</div>
